@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Test} from "./test/Test";
+import {Post} from "./post/Post";
+import {User} from "./user/User";
 
 function App() {
    return (
@@ -11,6 +14,9 @@ function App() {
                Edit <code>src/App.tsx</code> and save to reload.
             </p>
             <p>Lorem ipsum dolor.</p>
+            <Test/>
+            <Post/>
+            <User/>
             <a
                className="App-link"
                href="https://reactjs.org"
